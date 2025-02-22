@@ -176,40 +176,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: const Text('Zaloguj'),
                     ),
                   ),
-                  // const SizedBox(height: 16),
-                  // Column(
-                  //   children: [
-                  //     ElevatedButton(
-                  //       onPressed: () =>
-                  //           quickLogin('user@gmail.com', 'qwerty123'),
-                  //       style: ElevatedButton.styleFrom(
-                  //         backgroundColor: Colors.green,
-                  //         textStyle: const TextStyle(fontSize: 14),
-                  //       ),
-                  //       child: const Text('Testowy użytkownik'),
-                  //     ),
-                  //     const SizedBox(height: 8),
-                  //     ElevatedButton(
-                  //       onPressed: () =>
-                  //           quickLogin('trener@example.com', 'qwerty123'),
-                  //       style: ElevatedButton.styleFrom(
-                  //         backgroundColor: Colors.green,
-                  //         textStyle: const TextStyle(fontSize: 14),
-                  //       ),
-                  //       child: const Text('Testowy trener'),
-                  //     ),
-                  //     const SizedBox(height: 8),
-                  //     ElevatedButton(
-                  //       onPressed: () =>
-                  //           quickLogin('klub@example.com', 'qwerty123'),
-                  //       style: ElevatedButton.styleFrom(
-                  //         backgroundColor: Colors.green,
-                  //         textStyle: const TextStyle(fontSize: 14),
-                  //       ),
-                  //       child: const Text('Testowy klub'),
-                  //     ),
-                  //   ],
-                  // ),
                   const SizedBox(height: 24),
                   TextButton(
                     onPressed: () {

@@ -86,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
       screen: const ListExerciseScreen(),
     ),
     _MenuItem(
-      title: 'Plan treningowy',
+      title: 'Plany treningowe',
       icon: Icons.list_alt,
       screen: const ListTrainingPlanScreen(),
     ),

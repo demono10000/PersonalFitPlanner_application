@@ -8,7 +8,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // SharedPreferences.setMockInitialValues({});
   if (kDebugMode && Platform.isWindows) {
     SharedPreferences.setMockInitialValues({});
   }

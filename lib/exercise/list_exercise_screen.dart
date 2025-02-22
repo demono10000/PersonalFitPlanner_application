@@ -135,10 +135,6 @@ class _ListExerciseScreenState extends State<ListExerciseScreen>
                                   fontWeight: FontWeight.bold,
                                 ),
                           ),
-                          // subtitle: Text(
-                          //   exercise['description'] ?? 'Brak opisu',
-                          //   style: Theme.of(context).textTheme.bodyLarge,
-                          // ),
                           subtitle: Text(
                             (exercise['description'] != null && exercise['description']!.length > 50)
                                 ? '${exercise['description']!.substring(0, 50)}...'
